@@ -11,7 +11,8 @@ This extension generate more than 150 snippets. This is useful for creating and 
 ## How to use it?
 
 Just install the extension from the Marketplace available [here][marketplace-link]
-All the snippets are prefix by `ado`
+
+All the snippets are prefixed by `ado`
 
 ## Contributions
 
