@@ -1,0 +1,34 @@
+{
+    "name": "azure-devops-snippets-generator",
+    "displayName": "Azure DevOps Snippets Generator",
+    "description": "Generate all Azure DevOps snippets",
+    "version": "0.0.1",
+    "publisher": "damienaicheh",
+    "repository": "https://github.com/damienaicheh/azure-devops-snippets-generator",
+    "engines": {
+        "vscode": "^1.34.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [],
+    "main": "./out/extension.js",
+    "contributes": {},
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./"
+    },
+    "devDependencies": {
+        "@types/node": "^8.10.25",
+        "@types/vscode": "^1.34.0",
+        "tslint": "^5.16.0",
+        "typescript": "^3.4.5"
+    },
+    "dependencies": {
+        "child_process": "^1.0.2",
+        "fs": "0.0.1-security",
+        "handlebars": "^4.7.6",
+        "path": "^0.12.7"
+    }
+}
