@@ -10,9 +10,7 @@ This extension generate more than 150 snippets. This is useful for creating and 
 
 ## How to use it?
 
-Just install the extension from the Marketplace available [here][marketplace-link]
-
-All the snippets are prefixed by `ado`
+All the snippets are prefixed by `ado` this will be available inside a YAML file.
 
 ## Contributions
 
@@ -27,4 +25,3 @@ Add Readme.md to the template
 Stable version.
 
 [github-microsoft-link]: https://github.com/microsoft/azure-pipelines-tasks
-[marketplace-link]: https://marketplace.visualstudio.com/items?itemName=DamienAicheh.azure-devops-snippets

@@ -49,23 +49,28 @@ function run() {
         return __generator(this, function (_a) {
             switch (_a.label) {
                 case 0:
+                    console.log("Git clone");
+                    return [4 /*yield*/, commands_helpers_1.execShellCommand("cd " + outputFolder + " && git clone https://github.com/microsoft/azure-pipelines-tasks.git")];
+                case 1:
+                    _a.sent();
+                    console.log("Git clone done");
                     projectPath = path.join(outputFolder, projectFolderName);
                     args = commands_helpers_1.getArgs();
                     console.log(args);
                     console.log("Create project");
                     return [4 /*yield*/, commands_helpers_1.execShellCommand("cp -r templates " + projectPath)];
-                case 1:
+                case 2:
                     _a.sent();
                     console.log("Create project done");
                     console.log("Generate snippets");
                     return [4 /*yield*/, snippets_1.genereateSnippets(outputFolder, projectPath)];
-                case 2:
+                case 3:
                     filesNames = _a.sent();
                     console.log("Generate snippets done");
                     console.log("Configuration");
                     console.log(filesNames);
                     return [4 /*yield*/, setExtensionConfiguration(args.version, filesNames)];
-                case 3:
+                case 4:
                     _a.sent();
                     console.log("Configuration done");
                     return [2 /*return*/];
