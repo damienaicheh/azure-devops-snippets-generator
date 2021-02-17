@@ -18,6 +18,12 @@ Feel free to contribute, if you want to improve this tool!
 
 ## Release Notes
 
+### 1.0.3
+Update the tasks and release notes.
+
+### 1.0.2
+Fix run script
+
 ### 1.0.1
 Add Readme.md to the template
 
