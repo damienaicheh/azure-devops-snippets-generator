@@ -1,3 +1,5 @@
-rm -R out/vs-extension/
+npm install
+rm -R out
+mkdir out
 tsc src/index.ts
-node src/index.js --version=1.0.1
+node src/index.js --version=1.0.3
