@@ -19,6 +19,7 @@ async function run() {
 
     console.log("Create project");
     await execShellCommand(`cp -r templates ${projectPath}`);
+    await execShellCommand(`cd ${projectPath} && mkdir snippets`);
     console.log("Create project done");
 
     console.log("Generate snippets");

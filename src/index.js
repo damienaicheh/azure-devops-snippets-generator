@@ -61,16 +61,19 @@ function run() {
                     return [4 /*yield*/, commands_helpers_1.execShellCommand("cp -r templates " + projectPath)];
                 case 2:
                     _a.sent();
+                    return [4 /*yield*/, commands_helpers_1.execShellCommand("cd " + projectPath + " && mkdir snippets")];
+                case 3:
+                    _a.sent();
                     console.log("Create project done");
                     console.log("Generate snippets");
                     return [4 /*yield*/, snippets_1.genereateSnippets(outputFolder, projectPath)];
-                case 3:
+                case 4:
                     filesNames = _a.sent();
                     console.log("Generate snippets done");
                     console.log("Configuration");
                     console.log(filesNames);
                     return [4 /*yield*/, setExtensionConfiguration(args.version, filesNames)];
-                case 4:
+                case 5:
                     _a.sent();
                     console.log("Configuration done");
                     return [2 /*return*/];

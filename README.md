@@ -20,6 +20,9 @@ Feel free to contribute, if you want to improve this tool!
 
 ## Release Notes
 
+### 1.0.4
+Update all packages.
+
 ### 1.0.3
 Update the tasks and release notes.
 
