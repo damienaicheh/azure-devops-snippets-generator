@@ -6,7 +6,7 @@
     "publisher": "damienaicheh",
     "repository": "https://github.com/damienaicheh/azure-devops-snippets-generator",
     "engines": {
-        "vscode": "^1.34.0"
+        "vscode": "^1.56.0"
     },
     "categories": [
         "Other"
@@ -22,6 +22,7 @@
     "devDependencies": {
         "@types/node": "^15.0.2",
         "@types/vscode": "^1.56.0",
+        "path-parse": ">=1.0.7",
         "tslint": "^5.20.1",
         "typescript": "^4.2.4"
     },
