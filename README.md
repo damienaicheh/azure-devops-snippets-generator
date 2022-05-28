@@ -14,6 +14,8 @@ Just install the extension from the Marketplace available [here][marketplace-lin
 
 All the snippets are prefixed by `ado`
 
+![Demo](demo.gif)
+
 ## Contributions
 
 Feel free to contribute, if you want to improve this tool!
